@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu de operações</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <h1>Bem-vindo ao menu de operações! Qual operação você deseja fazer?</h1>
+
+    <select id="operators">
+      <option value="addition">Soma</option>
+      <option value="subtraction">Subtração</option>
+      <option value="multiplication">Multiplicação</option>
+      <option value="division">Divisão</option>
+      <option value="exponentiation">Potenciação</option>
+      <option value="square">Raiz quadrada</option>
+    </select>
+
+    <button id="send-option" type="button">Enviar</button>
+
+    <div class="inputs">
+      <label id="first-label" for="first-n">Primeiro número</label>
+      <input type="number" id="first-n" />
+
+      <label id="second-label" for="second-n">Segundo número</label>
+      <input type="number" id="second-n" />
+
+      <button id="calc" type="button">Calcular</button>
+
+      <p class="resultado"></p>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
